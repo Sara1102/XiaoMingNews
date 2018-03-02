@@ -1,0 +1,32 @@
+{
+    "op":"kupai.bid.sellerCenterDetail",
+    "code":"0000",
+    "list":[
+            {
+            "level":1,
+            "author":"学习进行时",
+            "name":"他们做了啥习近平给他们回信了",
+            "commitCount":0,
+            "headPhoto":[],
+            "supplierInfo":"歪歪歪歪歪歪"
+            },
+            {
+            "level":0,
+            "author":"悟空问答",
+            "name":"如果一天吃一个鸡蛋会有什么后果",
+            "commitCount":15,
+            "headPhoto":["http://pic25.photophoto.cn/20121216/0010023908775727_b.jpg","http://kptest.ess.ejucloud.cn/pic/640-1136-3b31f1ebec9f0818ec9bee19829bcc0b/200","http://kptest.ess.ejucloud.cn/pic/640-1136-3b31f1ebec9f0818ec9bee19829bcc0b/200"],
+            "supplierInfo":"歪歪歪歪歪歪"
+            },
+            {
+            "level":0,
+            "author":"悟空问答",
+            "name":"有长期不正当性关系，六大纪律全违反的他都干了啥？",
+            "commitCount":15,
+            "headPhoto":["http://pic25.photophoto.cn/20121216/0010023908775727_b.jpg"],
+            "supplierInfo":"歪歪歪歪歪歪"
+            },
+    ],
+    "msg":"success",
+    "status":true
+}

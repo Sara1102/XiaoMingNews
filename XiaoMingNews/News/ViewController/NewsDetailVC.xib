@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsDetailVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="tDy-Am-foL" id="69b-Wo-aE0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <wkWebView contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDy-Am-foL">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="627"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="请输入评论" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jVy-ea-TcS">
+                    <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tDy-Am-foL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2VQ-kI-KuL"/>
+                <constraint firstItem="jVy-ea-TcS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7sL-Dx-12N"/>
+                <constraint firstAttribute="bottom" secondItem="jVy-ea-TcS" secondAttribute="bottom" id="HST-bc-gnI"/>
+                <constraint firstItem="tDy-Am-foL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Tcq-2l-UiG"/>
+                <constraint firstAttribute="trailing" secondItem="jVy-ea-TcS" secondAttribute="trailing" id="Ui5-xn-Cvz"/>
+                <constraint firstAttribute="bottom" secondItem="tDy-Am-foL" secondAttribute="bottom" constant="40" id="bt4-RO-VPN"/>
+                <constraint firstItem="jVy-ea-TcS" firstAttribute="top" secondItem="tDy-Am-foL" secondAttribute="bottom" id="gWw-3w-nrf"/>
+                <constraint firstItem="tDy-Am-foL" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="vFH-p8-QpD"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
